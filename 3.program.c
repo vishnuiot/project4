@@ -7,6 +7,6 @@ int main()
     unsigned char costB=100;
     unsigned short total;
     total=costA+costB;
-    printf("The total cost is %d \n",total);
+    printf("The total cost is %ld \n",total);
     
 }
