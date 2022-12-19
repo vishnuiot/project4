@@ -5,8 +5,8 @@ int main()
 {
     unsigned char costA=300;
     unsigned char costB=100;
-    unsigned longint total;
+    unsigned short total;
     total=costA+costB;
-    printf("The total cost is %ld \n",total);
+    printf("The total cost is %d \n",total);
     
 }
