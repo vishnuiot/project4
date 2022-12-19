@@ -1,6 +1,7 @@
 gitupload.sh
 node_modules
 .vscode
+test
 
 # Binaries for programs and plugins
 *.exe
