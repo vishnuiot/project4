@@ -1,4 +1,5 @@
 gitupload.sh
 node_modules
-*.c
-*.txt
+#*.c
+#*.txt
+#git rm --cached 1.test.txt
