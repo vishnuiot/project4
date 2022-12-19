@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    unsigned char costA=30;
+    unsigned char costA=300;
     unsigned char costB=100;
     unsigned short total;
     total=costA+costB;
