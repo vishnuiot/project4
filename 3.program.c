@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    unsigned long costA=300; //change char to long to accomodate extra memory space
+    unsigned long costA=300; //change char to long to accomodate extra memory space.
     unsigned char costB=100;
     unsigned long total;
     total=costA+costB;
