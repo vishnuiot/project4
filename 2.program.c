@@ -1,3 +1,4 @@
+//Example for char memory effect
 #include <stdio.h>
 int main()
 {
