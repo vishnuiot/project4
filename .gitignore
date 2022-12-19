@@ -1,4 +1,4 @@
 *.txt
 *.c
-*.sh
+gitupload.sh
 node_modules
