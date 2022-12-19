@@ -1,5 +1,6 @@
 gitupload.sh
 node_modules
+.vscode
 #*.c
 #*.txt
 #git rm --cached 1.test.txt
