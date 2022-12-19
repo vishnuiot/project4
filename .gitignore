@@ -1,3 +1,4 @@
 gitupload.sh
 node_modules
 *.c
+*.txt
