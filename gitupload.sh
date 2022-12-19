@@ -6,3 +6,4 @@ git commit -m "modification"
 
 #  
 git remote add origin git@github.com:vishnuiot/project4.git
+git branch -M main
