@@ -8,5 +8,4 @@ git commit -m "modification"
 git remote add origin git@github.com:vishnuiot/project4.git
 git branch -M main
 git branch
-git push -u origin main
-git push --set-upstream git@github.com:vishnuiot/project4.git main
+
