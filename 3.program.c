@@ -11,5 +11,6 @@ int main()
     printf("The total cost is %ld \n",total);
     printf("The size of char is %ld \n",sizeof (char));
     printf("The of unsigned char is %d \n",sizeof (unsigned char));
+    printf("The size of int is %d \n",sizeof (int));
     
 }
