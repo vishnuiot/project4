@@ -10,5 +10,6 @@ int main()
     printf("char size is %d \n",sizeof(long));
     printf("The total cost is %ld \n",total);
     printf("The size of char is %ld \n",sizeof (char));
+    printf("The of unsigned char is %d \n",sizeof (unsigned char));
     
 }
