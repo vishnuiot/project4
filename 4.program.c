@@ -5,8 +5,8 @@ int a=5;
 
 int main()
 {
-unsigned long int addressofA=(unsigned long int)&a; // tupe casting
-printf("The address of a is %p \n",&a);
+unsigned long int addressofA=(unsigned long int)&a; // type casting
+printf("The address of a is %p \n",&a);//& gives variable address
 printf("The address of a %ld  \n",addressofA);
 return 0;
 
