@@ -13,5 +13,6 @@ int main()
     printf("The of unsigned char is %d \n",sizeof (unsigned char));
     printf("The size of int is %ld \n",sizeof (int));
     printf("The size of float is %ld \n",sizeof (float));
+    printf("The size of long int is %ld \n",sizeof (longint));
     
 }
