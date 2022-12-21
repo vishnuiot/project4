@@ -3,4 +3,4 @@
 #gcc -o test 3.program.c
 #gcc -o test 4.program.c
 gcc -o test 5.program.c
-./gitupload.sh
+#./gitupload.sh
