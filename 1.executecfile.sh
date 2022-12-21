@@ -2,5 +2,6 @@
 #gcc -o test 2.program.c
 #gcc -o test 3.program.c
 #gcc -o test 4.program.c
-gcc -o test 5.program.c
-#./gitupload.sh
+#gcc -o test 5.program.c
+gcc 6.program.c 6a.function.c -o test
+./gitupload.sh
