@@ -1,19 +1,24 @@
 // Example program for static and external class storage specifiers
 
-#include<stdio.h>
-void myfunc();
+// static and extern global variable
+
+#include <stdio.h>
+void  mathadd();
+int global_data=100;
 int main()
 {
-    myfunc();
-    myfunc();
-    myfunc();
-    //printf("Static storage class \n");
+   
+    printf("The global data is %d \n",global_data);
+     mathadd();
+     mathadd();
+     mathadd();
     return 0;
 }
 
-void myfunc()
+void  mathadd()
 {
-    static int count=0; // static storage class specifier
-    count=count+1;
-    printf("The count is  %d \n",count);
+ static int local_data=50;
+ local_data=local_data+1;
+ printf("The local data is %d \n",local_data);
+//  return global_data;
 }
