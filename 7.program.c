@@ -1,32 +1,33 @@
 // static and external function specifier
 
+// static and extern global variable
+
 #include <stdio.h>
-
-
-void myfunction();
-void myfunc();
-
-int privatedata;
-
-int main ()
+void  mathadd();
+void  mathmul();
+// int b=10;
+int global_data=100;
+int a;
+int main()
 {
-    privatedata=50;
-    printf("private data %d \n",privatedata);
-
-    myfunction();
-    printf("the function_privatedata is %d \n",privatedata);
-    printf("test \n");
-// static section
-    myfunc();
-    myfunc();
-    myfunc();
+   
+    printf("The global data is %d \n",global_data);
+    mathadd();
+    mathadd();
+    mathadd();
+    mathmul();
+    printf("The external int value from function mathmul is %d \n",a);
+    
     return 0;
 }
 
-
-void myfunc()
+void  mathadd()
 {
-    static int count=0; // static storage class specifier
-    count=count+1;
-    printf("The count is  %d \n",count);
+ static int local_data=50;
+ local_data=local_data+1;
+ printf("The local data is %d \n",local_data);
+//  return global_data;
 }
+
+
+

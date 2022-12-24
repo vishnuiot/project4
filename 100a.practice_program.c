@@ -4,7 +4,11 @@ extern int a;
 
 void mathmul()
 {
-    a=10000;    
+    a=10000;
+    
+
 }
 
+    
+    
     

@@ -2,14 +2,20 @@
 
 #include <stdio.h>
 void  mathadd();
+void  mathmul();
+// int b=10;
 int global_data=100;
+int a;
 int main()
 {
    
     printf("The global data is %d \n",global_data);
-     mathadd();
-     mathadd();
-     mathadd();
+    mathadd();
+    mathadd();
+    mathadd();
+    mathmul();
+    printf("The external int value from function mathmul is %d \n",a);
+    
     return 0;
 }
 
@@ -20,4 +26,6 @@ void  mathadd()
  printf("The local data is %d \n",local_data);
 //  return global_data;
 }
+
+
 
