@@ -2,7 +2,7 @@
 // type casting higher to lower --> Float to int
 
 #include <stdio.h>
-int a=51;
+int a=50;
 int b=2;
 int c ;
 // conversion of types from int to double
