@@ -1,7 +1,7 @@
 // functions 
 
 #include <stdio.h>
-void addnumbers(int a,int b); // adds two values
+int addnumbers(int a,int b); // adds two values
 // void mulnumbers(int a,int b); // multiply two values
 //void sub() // subtracts two values
 
