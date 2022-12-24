@@ -5,7 +5,7 @@
 #gcc -o test 5.program.c
 #gcc -o test 6.program.c 6a.function.c 
 #gcc -o test 7.program.c 7a.function.c
-#gcc -o test 8.program.c
+gcc -o test 8.program.c
 #gcc -o test 9.program.c
 #gcc -o test 10.program.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c

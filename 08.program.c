@@ -5,19 +5,8 @@
 // void mulnumbers(int a,int b); // multiply two values
 //void sub() // subtracts two values
 
-void addnumbers(int a,int b);
-
-void main()
+int main()
 {
-    addnumbers();
-    printf("The answer is %d \n",addnumbers);
-}
+printf("Test program \n");
 
-void addnumbers(int a,int b)
-{
-    a=5;b=6;
-    int c;
-    // int b;
-    c=a+b;
 }
-
