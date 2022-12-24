@@ -10,7 +10,6 @@ int global_data=100;
 int a;
 int main()
 {
-   
     printf("The global data is %d \n",global_data);
     mathadd();
     mathadd();
