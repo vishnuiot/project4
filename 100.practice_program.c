@@ -1,10 +1,23 @@
-// global variable
+// static and extern global variable
 
 #include <stdio.h>
-
-int global_data=100
+void  mathadd();
+int global_data=100;
 int main()
 {
-    printf("The data is %d",global data);
+   
+    printf("The global data is %d \n",global_data);
+     mathadd();
+     mathadd();
+     mathadd();
     return 0;
 }
+
+void  mathadd()
+{
+ static int local_data=50;
+ local_data=local_data+1;
+ printf("The local data is %d \n",local_data);
+//  return global_data;
+}
+
