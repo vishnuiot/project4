@@ -16,3 +16,18 @@ Command-line arguments:  -data /home/vishnu/Documents/6.Embedded_C_files/target 
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-12-21 21:28:22.628
 !MESSAGE Indexed 'example2' (22 sources, 82 headers) in 1.77 sec: 4,715 declarations; 22,525 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0073%)
+!SESSION 2022-12-23 20:05:38.898 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-23 20:05:42.285
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-23 20:05:42.335
+!MESSAGE Log4j initialized with config file /home/vishnu/Documents/6.Embedded_C_files/target/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-23 20:05:46.227
+!MESSAGE Started RMI Server, listening on port 41337

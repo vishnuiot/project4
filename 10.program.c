@@ -1,10 +1,14 @@
-// increment  a pointer and how it works
+// null pointer
 
 #include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
 
 int main ()
 {
-
-    printf("test program");
+    int *p;
+    p=NULL;
+    printf("The value of P is %u \n",p);
     return 0;
+
 }
