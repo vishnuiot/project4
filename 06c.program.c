@@ -1,4 +1,4 @@
-// Example of function 
+// Example of functions 
 
 #include <stdio.h>
 

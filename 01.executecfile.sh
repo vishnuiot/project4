@@ -4,7 +4,7 @@
 #gcc -o test 04.program.c
 #gcc -o test 05.program.c
 #gcc -o test 06.program.c 06a.function.c 
-gcc -o test 06c.program.c
+#gcc -o test 06c.program.c
 #gcc -o test 07.program.c 07a.function.c
 #gcc -o test 08.program.c
 #gcc -o test 09.program.c
