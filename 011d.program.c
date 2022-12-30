@@ -8,7 +8,7 @@ int i=0;
 do
 {
     /* code */
-    printf("Test program do %d \n,i");
+    printf("Test program do %d \n",i);
     i++;
 } 
 while (i<10);
