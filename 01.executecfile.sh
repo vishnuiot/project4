@@ -12,7 +12,7 @@
 # gcc -o test 08d.program.c
 #gcc -o test 09.program.c
 #gcc -o test 10.program.c
-gcc -o test 011.program.c
+gcc -o test 011a.program.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 ./gitupload.sh
 
