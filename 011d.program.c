@@ -1,5 +1,5 @@
 // Do while loop : while has a ; 
-// while is executed atleast once
+// while is executed atleast once -- to check for the condition
 
 #include <stdio.h>
 int main()
@@ -11,7 +11,7 @@ do
     printf("Test program do %d \n",i);
     i++;
 } 
-while (i<10);
+while (i<5);
     {
         printf("The value of i is %d \n ",i);
         
