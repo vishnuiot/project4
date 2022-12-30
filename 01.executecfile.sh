@@ -14,7 +14,8 @@
 #gcc -o test 10.program.c
 # gcc -o test 011a.program.c
 # gcc -o test 011b.program.c
-gcc -o test 011c.program.c
+# gcc -o test 011c.program.c
+gcc -o test 011d.program.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 ./gitupload.sh
 
