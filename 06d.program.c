@@ -19,7 +19,7 @@ int main()
 float myaddition(float a,float b)             // function definition
 {
     float result=a+b;
-    printf("The addition of two numbers is %d \n",result); 
+    printf("The addition of two numbers is %f \n",result); 
     return result;                  // return statement
 }
 
