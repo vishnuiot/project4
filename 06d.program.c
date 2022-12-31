@@ -9,7 +9,7 @@ int a=5,b=10;
 int main()
 {
     // int sum=myaddition(5,6);                // Function call
-    int myaddition();     
+    int myaddition(a,b);     
     printf("Test program \n ");
     return 0;
 }
