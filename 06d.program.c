@@ -8,8 +8,8 @@ int myaddition(int a,int b);            // Function prototype with return type i
 int main()
 {
     int sum=myaddition(5,6);                // Function call
-    int sum=myaddition(500,600);                // Function call
-    int sum=myaddition(5.5,6.5);                // Function call
+    int sum=myaddition(8,9);                // Function call
+    int sum=myaddition(7,8);                // Function call
     printf("Test program \n ");
     return 0;
 }
