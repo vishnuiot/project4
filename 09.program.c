@@ -5,7 +5,7 @@
 int main ()
 {
     
-    int num=20,num2=100;
+    float num=20,num2=100;
     int *num_ptr;
     num_ptr=&num;
     printf("The value of num is %d \n ",num);
