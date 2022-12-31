@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 
-int myaddition(int a,int b);            // Function prototype
+int myaddition(int a,int b);            // Function prototype with return type int
 int main()
 {
-    int sum=myaddition(5,6);                // Function call
-    printf("The addition of two numbers is %d \n",sum);       
+    // int sum=myaddition(5,6);                // Function call
+    int myaddition(5,6);     
     printf("Test program \n ");
     return 0;
 }
@@ -15,6 +15,7 @@ int main()
 int myaddition(int a,int b)             // function definition
 {
     int result=a+b;
+    printf("The addition of two numbers is %d \n",result); 
     return result;                  // return statement
 }
 
