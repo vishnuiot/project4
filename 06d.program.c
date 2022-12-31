@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-int myaddition(int a,int b);            // Function prototype with return type int
+float myaddition(float a,float b);            // Function prototype with return type int
 
 int main()
 {
@@ -15,10 +15,10 @@ int main()
     return 0;
 }
 
-float myaddition(int a,int b)             // function definition
+float myaddition(float a,float b)             // function definition
 {
-    int result=a+b;
-    printf("The addition of two numbers is %d \n",result); 
+    float result=a+b;
+    printf("The addition of two numbers is %f \n",result); 
     return result;                  // return statement
 }
 
