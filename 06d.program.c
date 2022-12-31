@@ -5,11 +5,9 @@
 
 int myaddition(int a,int b);            // Function prototype with return type int
 
-int a=5,b=10;
 int main()
 {
-    // int sum=myaddition(5,6);                // Function call
-    int myaddition(a,b);     
+    int sum=myaddition(5,6);                // Function call
     printf("Test program \n ");
     return 0;
 }
