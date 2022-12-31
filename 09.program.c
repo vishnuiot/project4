@@ -1,4 +1,5 @@
 //Example for pointer variables - read/write/substitute operation
+// https://stackoverflow.com/questions/1689423/memory-address-positive-or-negative-value-in-c
 
 
 #include <stdio.h>
@@ -15,8 +16,8 @@ int main ()
 
     *num_ptr=50;
     printf("The value of num is %lf \n ",num);
-    printf ("The value of the address of the integer data type is %d \n",num_ptr);
-    printf("De_referencing of pointer value is %d \n",*num_ptr);
+    printf ("The value of the address of the integer data type is %p \n",num_ptr);
+    printf("De_referencing of pointer value is %p \n",*num_ptr);
 
     *num_ptr=&num2;
     printf("The address of num2 is %d \n",*num_ptr);
