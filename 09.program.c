@@ -5,7 +5,7 @@
 int main ()
 {
     
-    int num=20;
+    int num=20,num2=100;
     int *num_ptr;
     num_ptr=&num;
     printf("The value of num is %d \n ",num);
@@ -17,6 +17,8 @@ int main ()
     printf("The value of num is %d \n ",num);
     printf ("The value of the address of the integer data type is %d \n",num_ptr);
     printf("De_referencing of pointer value is %d \n",*num_ptr);
+
+
 
 
 }
