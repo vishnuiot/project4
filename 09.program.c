@@ -9,8 +9,8 @@ int main ()
     int *num_ptr;
     num_ptr=&num;
     printf("The value of num is %lf \n ",num);
-    printf("The address of num is %d \n",&num);
-    printf ("The value of the address of the integer data type is %d \n",num_ptr);
+    printf("The address of num is %p \n",&num);
+    printf ("The value of the address of the integer data type is %p \n",num_ptr);
     printf("De_referencing of pointer value is %lf \n",*num_ptr);
 
     *num_ptr=50;
