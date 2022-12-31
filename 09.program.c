@@ -8,7 +8,7 @@ int main ()
     
     float num=20,num2=100;
     int *num_ptr;
-    int num_ptr=&num;
+    num_ptr=&num;
     printf("The value of num is %lf \n ",num);
     printf("The address of num is %p \n",&num);
     printf ("The value of the address of the integer data type is %p \n",num_ptr);
