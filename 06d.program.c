@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int a,b;
+
 myaddition(int a,int b);            // Function prototype
 int main()
 {
