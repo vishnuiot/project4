@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-myaddition(int a,int b);            // Function prototype
+int myaddition(int a,int b);            // Function prototype
 int main()
 {
     int sum=myaddition(5,6);                // Function call
