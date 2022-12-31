@@ -15,7 +15,7 @@ int main()
     return 0;
 }
 
-int myaddition(int a,int b)             // function definition
+float myaddition(int a,int b)             // function definition
 {
     int result=a+b;
     printf("The addition of two numbers is %d \n",result); 
