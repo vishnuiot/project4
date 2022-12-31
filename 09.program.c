@@ -6,12 +6,12 @@ int main ()
 {
     
     float num=20,num2=100;
-    float *num_ptr;
+    int *num_ptr;
     num_ptr=&num;
     printf("The value of num is %e \n ",num);
     printf("The address of num is %e \n",&num);
-    printf ("The value of the address of the integer data type is %e \n",num_ptr);
-    printf("De_referencing of pointer value is %e \n",*num_ptr);
+    printf ("The value of the address of the integer data type is %d \n",num_ptr);
+    printf("De_referencing of pointer value is %d \n",*num_ptr);
 
     *num_ptr=50;
     printf("The value of num is %e \n ",num);
