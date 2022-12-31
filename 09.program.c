@@ -21,7 +21,7 @@ int main ()
     *num_ptr=&num2;
     printf("The address of num2 is %d \n",*num_ptr);
     printf("Dereferencing num 2 %d \n",*num_ptr);
-    printf("The value of num is %d \n ",num2);
+    printf("The value of num2 is %f \n ",num2);
 
 
 
