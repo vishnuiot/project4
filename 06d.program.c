@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-myaddition(int a,int b)             // function definition
+int myaddition(int a,int b)             // function definition
 {
     int result=a+b;
     return result;                  // return statement
