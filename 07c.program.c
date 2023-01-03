@@ -16,8 +16,8 @@ int main()
     
 
 
-int mathadd(int n1,int n2)
+int mathadd(int a,int b)
 {
-    int sum=n1+n2;
+    int sum=a+b;
     return sum;
 }
