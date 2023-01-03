@@ -1,4 +1,5 @@
-// example for functions with scanf
+// example for functions with scanf and mapping the input values
+// 
 
 #include<stdio.h>
 
