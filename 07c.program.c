@@ -7,7 +7,7 @@ int n1,n2,result;
 int main()
 {
     printf("Enter two numbers \n");
-    scanf("%d %d,&n1,&n2");
+    scanf("%d %d,n1,n2");
     printf("The entered numbers address are  %d & %d \n",n1,n2);
 
 }
