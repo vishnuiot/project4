@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 int mathadd(int n1,int n2);
-int result;
+int n1,n2,result;
 int main()
 {
     printf("Enter two numbers \n");
