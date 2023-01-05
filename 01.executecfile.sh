@@ -7,7 +7,7 @@
 #gcc -o test 06c.program.c
 # gcc -o test 06d.program.c
 #gcc -o test 07.program.c 07a.function.c
-gcc -o test 07c.program.c
+# gcc -o test 07c.program.c
 # gcc -o test 08a.program.c
 # gcc -o test 08b.program.c
 # gcc -o test 08c.program.c
@@ -19,6 +19,7 @@ gcc -o test 07c.program.c
 # gcc -o test 011c.program.c
 # gcc -o test 011d.program.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
+gcc -o test 012a.pointer.c
 ./gitupload.sh
 
 # execute using ./test
