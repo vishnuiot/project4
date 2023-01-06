@@ -4,5 +4,11 @@
 
 int main()
 {
-    printf("Test program \n ");
+    int *p;
+    int x=20;
+    
+    printf("The value stored in p is %d \n",p);
+    printf("The value stored in memory location of p is %d \n",*p);
+
+    // printf("Test program \n ");
 }
