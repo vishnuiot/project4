@@ -14,12 +14,12 @@
 # gcc -o test 08d.program.c
 # gcc -o test 09.program.c
 #gcc -o test 10.program.c
-# gcc -o test 011a.program.c
-# gcc -o test 011b.program.c
-# gcc -o test 011c.program.c
-# gcc -o test 011d.program.c
+# gcc -o test 11a.program.c
+# gcc -o test 11b.program.c
+# gcc -o test 11c.program.c
+# gcc -o test 11d.program.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
-gcc -o test 012a.pointer.c
+gcc -o test 12a.pointer.c
 ./gitupload.sh
 
 # execute using ./test
