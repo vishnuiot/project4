@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int mathadd(int num1,int num2);
-float mathavg(int a, int b);
+float mathavg(float a, float b);
 a=7;b=10;
 
 int main()
