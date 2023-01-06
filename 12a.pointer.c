@@ -7,7 +7,7 @@ int main()
     int *num_ptr;
     num_ptr=num;
     printf("The value of num is %d ",num);
-    printf("The address of num is %ls",&num);
-    printf("The address of pointer is %ls ",num_ptr);
+    printf("The address of num is %d",&num);
+    printf("The address of pointer is %d ",num_ptr);
     // printf("test program \n");
 }
