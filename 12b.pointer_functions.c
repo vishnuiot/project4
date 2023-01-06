@@ -17,7 +17,7 @@ int mathadd(int num1,int num2)
     return result;
 }
 
-float mathavg(int a,int b)
+float mathavg(float a,float b)
 {
     return (a/b);
 }
