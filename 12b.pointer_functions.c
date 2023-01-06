@@ -1,3 +1,5 @@
+// pass by reference
+
 #include<stdio.h>
 
 int mathadd(int num1,int num2);

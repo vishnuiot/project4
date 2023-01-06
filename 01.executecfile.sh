@@ -20,7 +20,8 @@
 # gcc -o test 11d.program.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 # gcc -o test 12a.pointer.c
-gcc -o test 12b.pointer_functions.c
+#gcc -o test 12b.pointer_functions.c
+gcc -o test 12c.pointer_types.c
 ./gitupload.sh
 
 # execute using ./test
