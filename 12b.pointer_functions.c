@@ -7,6 +7,7 @@ a=7;b=10;
 int main()
 {
     printf("The addition of two numbers is %d \n",mathadd(5,6));
+    printf("The average of two numbers is %d \n",mathavg(a,b));
     return 0;
 }
 
