@@ -22,5 +22,8 @@ int main()
     printf("The value of pointer is %d \n",*(ptr+3));
     printf("The value of pointer is %d \n",*(ptr+4));
     // printf("Test program \n");
+
+    
+
     return 0;
 }
