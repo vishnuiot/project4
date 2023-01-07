@@ -8,6 +8,7 @@
 # gcc -o test 06d.program.c
 #gcc -o test 07.program.c 07a.function.c
 # gcc -o test 07c.program.c
+gcc -o test 07d.function_reference.c
 # gcc -o test 08a.program.c
 # gcc -o test 08b.program.c
 # gcc -o test 08c.program.c
@@ -26,7 +27,7 @@
 # gcc -o test 13b.array_memory.c
 # gcc -o test 13c.array_pointer_integer.c
 # gcc -o test 13d.array_pointer_char.c
-gcc -o test 13e.array_functions.c
+# gcc -o test 13e.array_functions.c
 ./gitupload.sh
 
 # execute using ./test
