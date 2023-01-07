@@ -4,5 +4,10 @@
 
 void main()
 {
-    printf("Test program  \n");
+    char arr[5]={"a""b""c""d""e"};
+    
+    
+    
+    // printf("Test program  \n");
+
 }
