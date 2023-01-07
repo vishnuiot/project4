@@ -24,7 +24,8 @@
 # gcc -o test 12c.pointer_types.c
 #gcc -o test 13a.arrays.c
 # gcc -o test 13b.array_memory.c
-gcc -o test 13c.array_pointer_integer.c
+# gcc -o test 13c.array_pointer_integer.c
+gcc -o test 13d.array_pointer_char.c
 ./gitupload.sh
 
 # execute using ./test
