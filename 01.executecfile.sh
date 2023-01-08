@@ -28,7 +28,7 @@
 # gcc -o test 13c.array_pointer_integer.c
 # gcc -o test 13d.array_pointer_char.c
 # gcc -o test 13e.array_functions.c
-gcc- o test 14a.struct.c
+gcc -o test 14a.structures_program.c
 ./gitupload.sh
 
 # execute using ./test
