@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 
+
 struct book
 {
     int pageno;             // member variabels
@@ -35,5 +36,20 @@ int main()
     printf("The price no of book %d =%f \n",i,b[i].price);
     }
 
+    display(&b[0]);
     return 0;
+}
+
+void display(struct book *b_ptr){
+    printf("The page no of book  =%d \n",b_ptr->pageno);
+    printf("The chapter no of book  =%f \n",b_ptr->chapterno);
+    printf("The price no of book  =%f \n",b_ptr->price);
+
+    // change the pointer values
+    b_ptr->pageno=9000;
+
+    printf("The page no of book  =%d \n",b_ptr->pageno);
+    printf("The chapter no of book  =%f \n",b_ptr->chapterno);
+    printf("The price no of book  =%f \n",b_ptr->price);
+
 }
