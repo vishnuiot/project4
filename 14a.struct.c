@@ -4,6 +4,6 @@
 
 int main()
 {
-    printf("Test \n");
+    printf("check program \n");
     return 0;
 }
