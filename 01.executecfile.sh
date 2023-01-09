@@ -37,6 +37,7 @@
 # gcc -o test 16a.pack_data.c
 # gcc -o test 17a.preprocessor_macro.c
 gcc -o test 17b.preprocessor_macro_expansion.c
+gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
 ./gitupload.sh
 
 # execute using ./test
