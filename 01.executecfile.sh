@@ -38,7 +38,8 @@
 # gcc -o test 17a.preprocessor_macro.c
 # gcc -o test 17b.preprocessor_macro_expansion.c
 # gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
-gcc -o 18a.intro.c
+# gcc -o test 18a.intro_integer.c
+gcc -o test 18b.intro_column_decimal.c
 ./gitupload.sh
 
 # execute using ./test
