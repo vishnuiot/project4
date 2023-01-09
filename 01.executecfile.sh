@@ -33,7 +33,8 @@
 # gcc -o test 14c.structures_functions.c
 # gcc -o test 15a.ternary.c
 # gcc -o test 15b.logical.c
-gcc -o test 15c.bitwise.c
+# gcc -o test 15c.bitwise.c
+gcc -o test 16a.pack_data.c
 ./gitupload.sh
 
 # execute using ./test
