@@ -34,7 +34,8 @@
 # gcc -o test 15a.ternary.c
 # gcc -o test 15b.logical.c
 # gcc -o test 15c.bitwise.c
-gcc -o test 16a.pack_data.c
+# gcc -o test 16a.pack_data.c
+gcc -o test 17a.preprocessor_macro.c
 ./gitupload.sh
 
 # execute using ./test
