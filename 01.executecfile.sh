@@ -30,7 +30,8 @@
 # gcc -o test 13e.array_functions.c
 # gcc -o test 14a.structures_program.c
 # gcc -o test 14b.structures_loop.c
-gcc -o test 14c.structures_functions.c
+# gcc -o test 14c.structures_functions.c
+gcc -o test 15a.ternary.c
 ./gitupload.sh
 
 # execute using ./test
