@@ -1,8 +1,8 @@
-#gcc -o test 01.program.c
-#gcc -o test 02.program.c
-#gcc -o test 03.program.c
-#gcc -o test 04.program.c
-#gcc -o test 05.program.c
+#gcc -o test 01.program_printfstatements.c
+#gcc -o test 02.print_tabspace.c
+#gcc -o test 03.long_float_double.c
+#gcc -o test 04.type_casting.c
+#gcc -o test 05.static_external.c
 #gcc -o test 06.program.c 06a.function.c 
 #gcc -o test 06c.program.c
 # gcc -o test 06d.program.c
