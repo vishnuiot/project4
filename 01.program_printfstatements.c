@@ -9,5 +9,7 @@ int main()
     printf("Structure of a C program \n");
     printf("Documentation section Ex : // program to calculate fuel efficiency\n");
     printf("Link section Ex : #include <stdio.h>, #include<stdio.h>\n");
+    printf("Global Declaration Ex: int fueltype\n");
+    printf("main consisting of declation and execution part\n");
     return 0;
 }
