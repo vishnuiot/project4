@@ -11,5 +11,8 @@ int main()
     printf("Link section \tEx : #include <stdio.h>, #include<stdio.h>\n");
     printf("Global Declaration \tEx: int fueltype\n");
     printf("main consisting of declation and execution part\n");
+
+    printf("single line comments // \n");
+    printf("Multiple line comments /*  */ \n");
     return 0;
 }
