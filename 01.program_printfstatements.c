@@ -7,7 +7,7 @@ int main()
     printf("c:\\Documents\\programming files \n");
     printf("Example for tab \t TAB executed\n");
     printf("Structure of a C program \n");
-    printf("Documentation section \n");
-    printf("Link section \n");
+    printf("Documentation section Ex : // program to calculate fuel efficiency\n");
+    printf("Link section Ex : #include <stdio.h>, #include<stdio.h>\n");
     return 0;
 }
