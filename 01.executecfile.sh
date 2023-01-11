@@ -1,7 +1,7 @@
 # gcc -o test 01.program_printfstatements.c
 #gcc -o test 02.print_tabspace.c
 # gcc -o test 03a.data_types_long_float_double.c
-gcc -o test 03b.constants_literals.c
+# gcc -o test 03b.constants_literals.c
 # gcc -o test 04.type_casting.c
 # gcc -o test 05.global_static_explanation.c
 #gcc -o test 06.program.c 06a.function.c 
@@ -33,7 +33,7 @@ gcc -o test 03b.constants_literals.c
 # gcc -o test 14b.structures_loop.c
 # gcc -o test 14c.structures_functions.c
 # gcc -o test 15a.ternary.c
-# gcc -o test 15b.logical.c
+# gcc -o test 15b.logical_shift_operator.c
 # gcc -o test 15c.bitwise_5types.c
 # gcc -o test 16a.pack_data.c
 # gcc -o test 17a.preprocessor_macro.c

@@ -1,4 +1,6 @@
-// Logical operators - Truth table of AND - && ,OR || ,NOT
+// Logical operators - Truth table of AND - && ,OR || ,NOT, XOR ^, ~
+// bit wise compliment or negation operator~, bit wise left shift,right shift operator
+// bit wise XOR operator ^
 
 # include <stdio.h>
 int main()

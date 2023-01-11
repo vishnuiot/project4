@@ -1,0 +1,2 @@
+//  example for bit extraction
+
