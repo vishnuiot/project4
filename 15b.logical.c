@@ -32,6 +32,11 @@ int main()
     {
         printf("The NOT condition is satisfied  %d \n",(a!=b));
     }
+
+    if ((a))
+    {
+        printf("A is a non zero value \n");
+    }
   
 
     return 0;
