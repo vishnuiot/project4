@@ -15,6 +15,7 @@ int main()
      mathadd();
      mathadd();
      mathadd();
+    printf("Again the global data is %d \n",global_data);
     return 0;
 }
 
