@@ -34,7 +34,7 @@ gcc -o test 03b.constants_literals.c
 # gcc -o test 14c.structures_functions.c
 # gcc -o test 15a.ternary.c
 # gcc -o test 15b.logical.c
-# gcc -o test 15c.bitwise.c
+# gcc -o test 15c.bitwise_5types.c
 # gcc -o test 16a.pack_data.c
 # gcc -o test 17a.preprocessor_macro.c
 # gcc -o test 17b.preprocessor_macro_expansion.c
