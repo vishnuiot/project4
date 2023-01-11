@@ -12,7 +12,7 @@ int main()
 
     int c =0177;
     printf("The decimal constant is %d \n",a);
-    printf("The hexadecimal constant is %d \n",b);
+    printf("The hexadecimal constant is %x \n",b);
     printf("The octal constant is %d \n",c);
 
 }
