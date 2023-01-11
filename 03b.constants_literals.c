@@ -15,6 +15,4 @@ int main()
     printf("The hexadecimal constant is %d \n",b);
     printf("The octal constant is %d \n",c);
 
-
-
 }
