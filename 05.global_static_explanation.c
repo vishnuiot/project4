@@ -4,7 +4,10 @@
 
 #include <stdio.h>
 void  mathadd();
-int global_data=100;
+//  Storage in RAM's READ /Write storage area
+int global_data=100;  
+
+
 int main()
 {
    
@@ -17,6 +20,7 @@ int main()
 
 void  mathadd()
 {
+//  local variables are Stored in RAM's register/stack area
  static int local_data=50;
  local_data=local_data+1;
  printf("The local data is %d \n",local_data);
