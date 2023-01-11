@@ -16,10 +16,10 @@
 # gcc -o test 08d.program.c
 # gcc -o test 09.program.c
 #gcc -o test 10.program.c
-# gcc -o test 11a.program.c
-# gcc -o test 11b.program.c
-# gcc -o test 11c.program.c
-# gcc -o test 11d.program.c
+# gcc -o test 11a.while.c
+# gcc -o test 11b.for_loop.c
+# gcc -o test 11c.nested_loop.c
+# gcc -o test 11d.do_while.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 # gcc -o test 12a.pointer.c
 #gcc -o test 12b.pointer_functions.c
