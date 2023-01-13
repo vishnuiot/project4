@@ -20,6 +20,7 @@
 # gcc -o test 11b.for_loop.c
 # gcc -o test 11c.nested_loop.c
 # gcc -o test 11d.do_while.c
+11e.do_while_advanced.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 # gcc -o test 12a.pointer.c
 #gcc -o test 12b.pointer_functions.c
