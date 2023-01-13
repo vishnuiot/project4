@@ -20,7 +20,7 @@
 # gcc -o test 11b.for_loop.c
 # gcc -o test 11c.nested_loop.c
 # gcc -o test 11d.do_while.c
-gcc -o test 11e.do_while_advanced.c
+# gcc -o test 11e.do_while_advanced.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 # gcc -o test 12a.pointer.c
 #gcc -o test 12b.pointer_functions.c
@@ -42,6 +42,7 @@ gcc -o test 11e.do_while_advanced.c
 # gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
 # gcc -o test 18a.intro_integer.c
 # gcc -o test 18b.intro_column_decimal.c
+gcc -o test 100a.practice_program.c
 ./gitupload.sh
 
 # execute using ./test

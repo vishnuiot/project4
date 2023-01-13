@@ -1,14 +1,16 @@
-// loading function from an external file
+// array practice
 
-extern int a;
+int array[]={10,20,30,40,50};
 
-void mathmul()
+int i;
+
+int main()
 {
-    a=10000;
+for (i=0;i<0;i++)
+{
+    printf("The array element no %d is %d \n",i,array[i]);
     
-
+}
 }
 
-    
-    
     
