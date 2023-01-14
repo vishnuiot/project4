@@ -5,7 +5,7 @@
 int main()
 {
     
-    switch (2)
+    switch (5)
     {
         case 1: printf("The switch case is one \n");break;
         case 2: printf("The swithc case is two \n");break;
