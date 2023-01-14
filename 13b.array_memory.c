@@ -21,9 +21,9 @@ int main()
     printf("The total is %d \n",total);
     printf("The average of array is %d \n",total/5);
 // character operations
-    char b[5]={"a""b""c""d""e"};
+    char b[5]={"a""b""c""d""e""\0"};
     int j;
-    for (j=0;j<5;j++)
+    for (j=0;j<8;j++)
     {
         printf("The value of j is %c  and address of j is %d \n",b[j],&b[j]);
         // printf("The address of j is %d \n",&b[j]);

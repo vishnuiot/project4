@@ -42,7 +42,7 @@
 # gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
 # gcc -o test 18a.intro_integer.c
 # gcc -o test 18b.intro_column_decimal.c
-gcc -o test 100a.practice_program.c
+gcc -o test 100.practice_program.c
 ./gitupload.sh
 
 # execute using ./test
