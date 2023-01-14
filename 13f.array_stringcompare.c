@@ -6,6 +6,6 @@
 int main()
 {
     char s[]="This is a c program ";
-    printf(" %c \n ",s);
+    printf(" %s \n ",s);
     return 0;
 }
