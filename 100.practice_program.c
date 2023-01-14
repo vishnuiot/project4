@@ -5,11 +5,12 @@
 int main()
 {
     
-    switch (2){
-    case(1):printf("The swithc case is 1 \n");break;
-    case (2): printf("the switch case is 2 \n");break;
-    default: break;
-       }
+    switch (2)
+    {
+        case 1: printf("The switch case is one \n");break;
+        case 2: printf("The swithc case is two \n");break;
+        default:break;
+    }
     
     return 0;
 }
