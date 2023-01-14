@@ -13,7 +13,7 @@
 # gcc -o test 08a.program.c
 # gcc -o test 08b.program.c
 # gcc -o test 08c.program.c
-# gcc -o test 08d.program.c
+# gcc -o test 08d.switch_program.c
 # gcc -o test 09.program.c
 #gcc -o test 10.program.c
 # gcc -o test 11a.while.c
