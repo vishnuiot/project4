@@ -13,9 +13,5 @@ int main()
     //  compare two arrays
     char s1[50]="This is a sentence ";
     char s2[]="This is a sentence ";
-
-    if (strcmp(s1,s2)==0 )
-    printf("")
-
     return 0;
 }
