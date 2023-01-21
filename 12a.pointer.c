@@ -12,7 +12,7 @@ p=&a;
 printf("The value stored in p is %d \n",*p);
 
 *p=*p+a;
-printf("The incremented value by pointer is %d \n",*p);
+printf("The pass by reference %d \n",*p);
     
     return 0;
 }
