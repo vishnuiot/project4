@@ -5,12 +5,11 @@
 int main()
 {
     
-    switch (2)
-    {
-        case 1: printf("The switch case is one \n");break;
-        case 2: printf("The swithc case is two \n");break;
-        default:break;
-    }
+int a =5;
+int b= 7;
+int *p;
+*p=&a;
+printf("The value stored in p is %d \n",*p);
     
     return 0;
 }
