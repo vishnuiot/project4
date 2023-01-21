@@ -34,7 +34,7 @@
 # gcc -o test 13e.array_functions.c
 # gcc -o test 13f.array_stringcompare.c
 # gcc -o test 13g.char_array.c
-gcc -o test 13h.char_array_continuation.c
+# gcc -o test 13h.char_array_continuation.c
 # gcc -o test 14a.structures_program.c
 # gcc -o test 14b.structures_loop.c
 # gcc -o test 14c.structures_functions.c
