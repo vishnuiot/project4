@@ -5,7 +5,7 @@
 # gcc -o test 04.type_casting.c
 # gcc -o test 05.global_static_explanation.c
 #gcc -o test 06.call_external_function.c 06a.external_function.c 
-gcc -o test 06b.two_functions.c
+# gcc -o test 06b.two_functions.c
 #gcc -o test 06c.program.c
 # gcc -o test 06d.program.c
 #gcc -o test 07.program.c 07a.function.c
@@ -45,7 +45,7 @@ gcc -o test 06b.two_functions.c
 # gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
 # gcc -o test 18a.intro_integer.c
 # gcc -o test 18b.intro_column_decimal.c
-# gcc -o test 100.practice_program.c
+gcc -o test 100.practice_program.c
 ./gitupload.sh
 
 # execute using ./test
