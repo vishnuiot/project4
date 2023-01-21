@@ -2,25 +2,14 @@
 
 #include<stdio.h>
 
-int mathadd(int num1,int num2);
-float mathavg(float a, float b);
-a=7;b=10;
-
 int main()
 {
-    printf("The addition of two numbers is %d \n",mathadd(5,6));
-    printf("The average of two numbers is %f \n",mathavg(a,b));
+    int a=1,b=2,c=3;
+    printf("The answer is %d \n",addone(&a,&b,&c));
     return 0;
 }
 
-int mathadd(int num1,int num2)
+int addone(int *a,int *b,int *c)
 {
-    int result=num1+num2;
-    return result;
+*a=*a+1;
 }
-
-float mathavg(float a,float b)
-{
-    return (a/b);
-}
-
