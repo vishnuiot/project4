@@ -25,7 +25,7 @@
 # gcc -o test 11e.do_while_advanced.c
 #gcc -o test 100.practice_program.c 100a.practice_program.c
 # gcc -o test 12a.pointer.c
-gcc -o test 12b.pointer_functions.c
+# gcc -o test 12b.pointer_functions.c
 # gcc -o test 12c.pointer_types.c
 #gcc -o test 13a.arrays.c
 # gcc -o test 13b.array_memory.c
@@ -33,6 +33,7 @@ gcc -o test 12b.pointer_functions.c
 # gcc -o test 13d.array_pointer_char.c
 # gcc -o test 13e.array_functions.c
 # gcc -o test 13f.array_stringcompare.c
+gcc -o test 13g.char_array.c
 # gcc -o test 14a.structures_program.c
 # gcc -o test 14b.structures_loop.c
 # gcc -o test 14c.structures_functions.c

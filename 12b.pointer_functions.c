@@ -5,13 +5,15 @@
 int main()
 {
     int a=1,b=2,c=3;
-    
+    addone(&a,&b,&c);
+    printf("The answer  a is %d ,%d ,%d \n",a,b,c);     
     return 0;
 }
 
 int addone(int *a,int *b,int *c)
 {
 *a=*a+1;
-printf("The answer is %p \n",addone(&a,&b,&c));
+*b=*b+1;
+*c=*c+1;
 
 }
