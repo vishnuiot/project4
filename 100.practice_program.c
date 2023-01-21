@@ -8,7 +8,7 @@ int main()
 int a =5;
 int b= 7;
 int *p;
-*p=&a;
+p=&a;
 printf("The value stored in p is %d \n",*p);
     
     return 0;
