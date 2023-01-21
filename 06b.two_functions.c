@@ -3,19 +3,30 @@
 #include <stdio.h>
 #include<math.h>
 
-float power(float a,float b);
+
+float mult(float a,float n);
+float power(float a,int n);
+
 
 int main()
 {
-    float x;
-    x=power(10,2);
-    printf("The answer is %f \n",x);
+
+    printf("The power is %0.2f \n",power(2,3));
     return 0;
 }
 
-float power(float a,float b)
+float mult(float a,float n)
 {
-    int result = a+b;
+    return (a*n);
+}
+
+float power(float a,int n)
+{
+    int result =a;
+    for (int i=1;i<n;i++)
+    {
+            result= mult(result,a);
+    }
     return result;
 }
 
