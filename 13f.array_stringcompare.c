@@ -11,7 +11,28 @@ int main()
     printf(" %s \n ",s);
 
     //  compare two arrays
-    char s1[50]="This is a sentence ";
-    char s2[]="This is a sentence ";
+    char s1[50]="123";
+    char s2[50]="123";
+
+
+    if (strcmp(s1,s2)== 0)
+     printf("The strings are similar \n");
+    else 
+    printf("The strings are not equal because of strcat operation \n");
+
+    strcat(s1,s2);
+  
+    printf("The concatenated string is = %s \n",s1);
+
+
+     if (strcmp(s1,s2)== 0)
+     printf("The strings are similar \n");
+    else 
+    printf("The strings are not equal because of strcat operation \n");
+    
+
+
+
+
     return 0;
 }
