@@ -4,7 +4,7 @@
 # gcc -o test 03b.constants_literals.c
 # gcc -o test 04.type_casting.c
 # gcc -o test 05.global_static_explanation.c
-#gcc -o test 06.program.c 06a.function.c 
+#gcc -o test 06.call_external_function.c 06a.external_function.c 
 #gcc -o test 06c.program.c
 # gcc -o test 06d.program.c
 #gcc -o test 07.program.c 07a.function.c
