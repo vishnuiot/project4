@@ -1,3 +1,4 @@
+// uniary( ++ --),binary( ) & ternary operator
 // ternary operator only returns a value after ? 
 // It requires three operands
 
@@ -5,6 +6,14 @@
 
 int main()
 {
+    // unary operator
+    int x,y,g;
+    x=5;
+    y=x++;
+    printf("The pre-incremented value of x is %d \n",y);
+    g=++x;
+    printf("The pre-incremented value of x is %d \n",g);
+
     int a,b,max;
     a=5;b=10;max=0;
     max=(a>b?a:b);
