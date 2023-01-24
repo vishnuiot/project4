@@ -1,0 +1,2 @@
+List the no of threads in a linux machine
+cat /proc/sys/kernel/threads-max
