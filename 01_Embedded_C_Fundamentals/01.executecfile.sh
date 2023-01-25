@@ -8,7 +8,7 @@
 # gcc -o test 06b.two_functions.c
 #gcc -o test 06c.program.c
 # gcc -o test 06d.program.c
-gcc -o test 06e.functions_memoryaddress.c
+# gcc -o test 06e.functions_memoryaddress.c
 #gcc -o test 07.program.c 07a.function.c
 # gcc -o test 07c.program.c
 # gcc -o test 07d.function_reference.c
