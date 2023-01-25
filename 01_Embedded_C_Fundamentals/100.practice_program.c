@@ -1,16 +1,11 @@
-// static and extern global variable
+// pointer practice program
 
 #include <stdio.h>
-
 int main()
 {
-    
-int a =5;
-int b= 7;
-int *p;
-p=&a;
-printf("The value stored in p is %d \n",*p);
-    
+    int a=10;
+    int *p;
+    p=&a;
+    printf("THe value stores by pointer p is %d \n",*p);
     return 0;
 }
-
