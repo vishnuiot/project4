@@ -4,5 +4,4 @@ gcc -o test 01.phonebook.c
 
 cd ../../
 ./gitupload.sh
-
 cd -/-
