@@ -7,7 +7,7 @@
 int main()
 {
     // fork calls a child process alongside the main process
-    fork();
+    // fork();
     int id=fork();
         printf("Test program %d \n",id);
     if (id ==0){
