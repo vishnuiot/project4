@@ -1,5 +1,0 @@
-List the no of threads in a linux machine
-cat /proc/sys/kernel/threads-max
-
-http://www.csc.villanova.edu/~mdamian/threads/posixthreads.html
-
