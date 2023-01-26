@@ -35,6 +35,7 @@
 # gcc -o test 13f.array_stringcompare.c
 # gcc -o test 13g.char_array.c
 # gcc -o test 13h.char_array_continuation.c
+gcc -o test 13i.array_memoryaddress.c
 # gcc -o test 14a.structures_program.c
 # gcc -o test 14b.structures_loop.c
 # gcc -o test 14c.structures_functions.c
@@ -47,11 +48,11 @@
 # gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
 # gcc -o test 18a.intro_integer.c
 # gcc -o test 18b.intro_column_decimal.c
-gcc -o test 100.practice_program.c
+# gcc -o test 100.practice_program.c
 ./test
-# cd ..
-# ./gitupload.sh
-# cd -
+cd ..
+./gitupload.sh
+cd -
 
 
 # execute using ./test
