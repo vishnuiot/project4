@@ -50,9 +50,9 @@ gcc -o test 12b.pointer_functions.c
 # gcc -o test 18b.intro_column_decimal.c
 # gcc -o test 100.practice_program.c
 ./test
-cd ..
-./gitupload.sh
-cd -
+# cd ..
+# ./gitupload.sh
+# cd -
 
 
 # execute using ./test
