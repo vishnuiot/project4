@@ -16,8 +16,7 @@ int main()
         return 1;
     }
 
-    printf("Hello from fork process \n");
-    printf("Hello 2 from fork process \n");
+printf("process id %d\n",getpid());
 
     if (pid != 0)
     {
