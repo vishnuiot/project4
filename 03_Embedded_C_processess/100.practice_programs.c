@@ -1,5 +1,3 @@
-// Example to generate 3 process
-// if id ==0 then it is child process else it is main process
 // generate 3 process
 
 #include <stdio.h>
