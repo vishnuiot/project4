@@ -13,6 +13,7 @@ int main()
     {
         n = 6;
     }
+    // check to figure out if we are in main process
     if (id != 0)
     {
         wait();
@@ -20,7 +21,7 @@ int main()
 
     for (int i = 0; i < n+5 ; i++)
     {
-        printf("%d", i);
+        printf("The child process id is %d - %d \n", id,i);
         fflush(stdout);
     }
 
