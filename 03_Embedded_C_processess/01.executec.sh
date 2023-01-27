@@ -5,6 +5,6 @@ gcc -o test 04.fork_wait.c
 # gcc -o test 05.fork_visualization.c
 # gcc -o test 100.practice_programs.c
 ./test
-cd ..
-./gitupload.sh
-cd -
+# cd ..
+# ./gitupload.sh
+# cd -

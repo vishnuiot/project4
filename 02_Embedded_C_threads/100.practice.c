@@ -4,7 +4,7 @@ void *routine()
 {
     printf("Welcome to thread \n");
     sleep(3);
-    printf("Ending from threads after 3 seconds \n");
+    printf("Ending from threads \n");
 }
 
 int main()
