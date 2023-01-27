@@ -3,3 +3,13 @@ cat /proc/sys/kernel/threads-max
 
 http://www.csc.villanova.edu/~mdamian/threads/posixthreads.html
 
+Difference between Threads & threads_processess
+
+Threads: only one process id
+processess: Every processess has an id
+
+Threads:Share memories
+Processess:Do not share momory
+
+Threads:all system process are shared
+

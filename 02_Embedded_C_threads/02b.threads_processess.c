@@ -15,12 +15,16 @@ int main()
     {
         return 1;
     }
-
-printf("process id %d\n",getpid());
-
-    if (pid != 0)
+        if (pid != 0)
     {
         wait(NULL);
+    }
+
+    if(pid!=0){
+        printf("Main process id %d\n",getpid());
+    }
+    else{
+        printf("child process id %d \n",getpid());
     }
 
     return 0;
