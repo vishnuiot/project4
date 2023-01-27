@@ -5,7 +5,7 @@ gcc -o test 02a.threads_vsprocessess.c
 # gcc -o test 02b.threads_processess.c
 
 ./test
-cd ..
-./gitupload.sh
-cd -
+# cd ..
+# ./gitupload.sh
+# cd -
 
