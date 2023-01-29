@@ -8,7 +8,9 @@
 # gcc -o test 03.threads_race_conditions.c
 # gcc -o test 04a.threads_mutex.c
 # gcc -o test 04b.threads_mutex_multiplethreads.c
-gcc -o test 05.threads_createbyloop_noparallelthread.c
+# gcc -o test 05a.threads_createbyloop_noparallelthread.c
+gcc -o test 05b.threads_createbyloop_parallel_execution.c
+
 # gcc -o test 100.practice.c
 
 ./test
