@@ -1,4 +1,6 @@
+
 gitupload.sh
+copy_from_stm32_target.sh
 node_modules
 .vscode
 test
