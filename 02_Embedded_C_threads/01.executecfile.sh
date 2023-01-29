@@ -14,7 +14,7 @@ gcc -o test 05b.threads_createbyloop_parallel_execution.c
 # gcc -o test 100.practice.c
 
 ./test
-cd ..
-./gitupload.sh
-cd -
+# cd ..
+# ./gitupload.sh
+# cd -
 
