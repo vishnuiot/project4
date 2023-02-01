@@ -1,6 +1,7 @@
 // Example for communication between processess
 
 #include <stdio.h>
+#include<unistd.h>
 
 int main()
 {
