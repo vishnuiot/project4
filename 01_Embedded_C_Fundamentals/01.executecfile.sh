@@ -25,7 +25,7 @@
 # gcc -o test 11d.do_while.c
 # gcc -o test 11e.do_while_advanced.c
 # gcc -o test 12a.pointer_int_char.c
-gcc -o test 12b.pointer_functions.c
+# gcc -o test 12b.pointer_functions.c
 # gcc -o test 12c.pointer_types.c
 #gcc -o test 13a.arrays.c
 # gcc -o test 13b.array_memory.c
@@ -48,7 +48,7 @@ gcc -o test 12b.pointer_functions.c
 # gcc -E 17b.preprocessor_macro_expansion.c >>preprocessor.txt
 # gcc -o test 18a.intro_integer.c
 # gcc -o test 18b.intro_column_decimal.c
-# gcc -o test 100.practice_program.c
+gcc -o test 100.practice_program.c
 ./test
 cd ..
 ./gitupload.sh
