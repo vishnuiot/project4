@@ -4,11 +4,12 @@
 # gcc -o test 04.fork_wait.c
 # gcc -o test 05.fork_visualization.c
 # gcc -o test 06a.process_id.c
-gcc -o test 06b.process_id_parent_child.c
+# gcc -o test 06b.process_id_parent_child.c
 # gcc -o test 07.multiple_forks.c
 # gcc -o test 08a.comms_pipe.c
 # gcc -o test 08b.comms_pipe_errors.c
 # gcc -o test 100.practice_programs.c
+gcc -o test 09a.use_of_fork_pipes.c
 
 ./test
 cd ..
