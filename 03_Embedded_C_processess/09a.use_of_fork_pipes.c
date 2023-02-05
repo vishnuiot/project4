@@ -9,7 +9,8 @@ int main()
     int no_of_elements = sizeof(array) / sizeof(int); // divide bytes by int
     printf("%d \n", no_of_elements);
     int start, end;
-    int fd[2];
+    int  fd[2];
+    pipe(fd);
 
     int id = fork();
 
@@ -42,7 +43,7 @@ int main()
         close(fd[0]);
 
         int totalsum=sumfromchild+sum;
-        printf("The total sum is %d ",totalsum);
+        printf("The total sum is %d \n",totalsum);
         wait(NULL);
     }
 
