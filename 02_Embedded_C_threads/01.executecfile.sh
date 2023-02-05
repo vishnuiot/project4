@@ -9,7 +9,8 @@
 # gcc -o test 04a.threads_mutex.c
 # gcc -o test 04b.threads_mutex_multiplethreads.c
 # gcc -o test 05a.threads_createbyloop_noparallelthread.c
-gcc -o test 05b.threads_createbyloop_parallel_execution.c
+# gcc -o test 05b.threads_createbyloop_parallel_execution.c
+06a.threads_returnvalue.c
 
 # gcc -o test 100.practice.c
 

@@ -1,0 +1,2 @@
+1. Create main process & child process and printout its output
+2. Create main process & child process and printout its ID
