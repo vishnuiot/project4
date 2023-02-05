@@ -30,5 +30,21 @@ int main()
     }
     printf("The calculated partial sum is %d \n",sum);
 
+    if (id==0){
+        close(fd[0]);
+        write(fd[1],&sum,sizeof(sum));
+        close(fd[1]);
+    }
+    else{
+        int sumfromchild;
+        close(fd[1]);
+        read(fd[0],&sumfromchild,sizeof(sumfromchild));
+        close(fd[0]);
+
+        int totalsum=sumfromchild+sum;
+        printf("The total sum is %d ",totalsum);
+        wait(NULL);
+    }
+
     return 0;
 }
